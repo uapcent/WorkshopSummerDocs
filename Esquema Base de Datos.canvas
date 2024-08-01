@@ -1,0 +1,33 @@
+{
+	"nodes":[
+		{"id":"f0a848af71c12ef4","type":"text","text":"### Events\n**eventID**\ntype\n**stopId**\ntimestamp","x":1500,"y":-1140,"width":250,"height":200,"color":"5"},
+		{"id":"a208d59fb4de3dd4","type":"text","text":"### Monitoring\nvehicle-id\ntimestamps\nlocation\nspeed\ndirection\nrouteId\npassengerCount\nstatus\nevents","x":540,"y":-1240,"width":250,"height":400,"color":"4"},
+		{"id":"214719a5433cc2a7","type":"text","text":"### Notification \nnotificationId\ntimestamp \ntype\ntitle\nmessage\nseverity\nrouteID\nvvehicleId\nrecipients\nactions","x":-65,"y":-1220,"width":250,"height":380,"color":"4"},
+		{"id":"6892250dda090b4b","type":"text","text":"### Route \n**routeId**\nrouteName: String\nstops\nschedule","x":940,"y":-488,"width":250,"height":200,"color":"4"},
+		{"id":"45789720149eee2f","type":"text","text":"#### Stops\n**StopId**\n**routeId**\nStopName\ncoordinates\narrivalTimes","x":1500,"y":-527,"width":250,"height":279,"color":"5"},
+		{"id":"b1be66c821aadfd4","type":"text","text":"### Vehicle \n**vehicleId**\nlicensePlate\ncapacity\ncurrentStatus\ntype\n**routeId**\nlastManteinance: Date\ncurrentLocation\n**driver**\n","x":540,"y":-560,"width":250,"height":343,"color":"4"},
+		{"id":"6b4c02c58c31df09","type":"text","text":"### ViajesPasajero\n**tripId**\n**passengerId**\nrouteId\n**vehicleId**\nStartTime\nEndTime\nstartStop\nendStop\nfare","x":540,"y":-86,"width":250,"height":328,"color":"5"},
+		{"id":"e0c535ee9930c62d","type":"text","text":"### Pasajero\n**Id**: String\nName\nemail\nphone\npreferedPaymentMethod\nregisteredAt\n","x":528,"y":392,"width":262,"height":268,"color":"4"},
+		{"id":"a9734804b1265b66","type":"text","text":"#### Schedule\nscheduleId\nweekdays_start_time\nweekdays_end_time\nweekdays_frequencyMinutes\nweekends_start_time\nweekends_start_time\nweekdays_frequencyMinutes\n","x":919,"y":140,"width":293,"height":320,"color":"5"},
+		{"id":"7d96b03a2d0127c6","type":"text","text":"### Driver\n**driverId**: String\nname: String\ncontact: Phone","x":60,"y":-472,"width":250,"height":167,"color":"5"},
+		{"id":"2357299eb5190e4b","type":"text","text":"#### recipient\nRecipientId\nrecipientType\ncontact_email\ncontact_phone","x":260,"y":-1240,"width":229,"height":200,"color":"5"},
+		{"id":"f31f3ac61d509960","type":"text","text":"#### actions\nActionId\ntype\nstatus","x":260,"y":-1020,"width":229,"height":180,"color":"5"}
+	],
+	"edges":[
+		{"id":"2e43fc0cb1a282e6","fromNode":"e0c535ee9930c62d","fromSide":"top","toNode":"6b4c02c58c31df09","toSide":"bottom","label":"1:n"},
+		{"id":"2701056b93ff11db","fromNode":"6b4c02c58c31df09","fromSide":"top","toNode":"b1be66c821aadfd4","toSide":"bottom","label":"1:1"},
+		{"id":"512571eb0ab0c1a2","fromNode":"b1be66c821aadfd4","fromSide":"left","toNode":"7d96b03a2d0127c6","toSide":"right","label":"1:1"},
+		{"id":"9eaf7db48aaced26","fromNode":"b1be66c821aadfd4","fromSide":"right","toNode":"6892250dda090b4b","toSide":"left","label":"1:1"},
+		{"id":"faec6fc476950cb2","fromNode":"6892250dda090b4b","fromSide":"bottom","toNode":"a9734804b1265b66","toSide":"top","label":"1:1?"},
+		{"id":"81f0f7a15bc584ff","fromNode":"6892250dda090b4b","fromSide":"right","toNode":"45789720149eee2f","toSide":"left","label":"1:n"},
+		{"id":"835b3942929e6ca2","fromNode":"a208d59fb4de3dd4","fromSide":"bottom","toNode":"b1be66c821aadfd4","toSide":"top","label":"1:n"},
+		{"id":"c704fe147e23a3fc","fromNode":"6b4c02c58c31df09","fromSide":"right","toNode":"6892250dda090b4b","toSide":"bottom","label":"n:n"},
+		{"id":"0eb87468070ae5d6","fromNode":"a208d59fb4de3dd4","fromSide":"right","toNode":"6892250dda090b4b","toSide":"top","label":"1:n"},
+		{"id":"5272a9e32aa54de5","fromNode":"a208d59fb4de3dd4","fromSide":"right","toNode":"f0a848af71c12ef4","toSide":"left","label":"1:n"},
+		{"id":"1b023f4be0a4f544","fromNode":"f0a848af71c12ef4","fromSide":"bottom","toNode":"45789720149eee2f","toSide":"top","label":"1:n"},
+		{"id":"a7b971e32d9efc39","fromNode":"214719a5433cc2a7","fromSide":"right","toNode":"f31f3ac61d509960","toSide":"left"},
+		{"id":"84cc602728957e98","fromNode":"214719a5433cc2a7","fromSide":"right","toNode":"2357299eb5190e4b","toSide":"left"},
+		{"id":"013adcb983b137cc","fromNode":"b1be66c821aadfd4","fromSide":"top","toNode":"214719a5433cc2a7","toSide":"bottom","label":"1:n"},
+		{"id":"ea718c64d8bf8be9","fromNode":"6892250dda090b4b","fromSide":"top","toNode":"214719a5433cc2a7","toSide":"bottom","label":"1:n"}
+	]
+}
