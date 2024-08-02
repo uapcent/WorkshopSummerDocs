@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "routes-manager.md",
+                "file": "Services/notification-service.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "routes-manager.md",
+                "file": "Services/notification-service.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "routes-manager.md",
+                "file": "Services/notification-service.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "routes-manager.md"
+                "file": "Services/notification-service.md"
               }
             }
           }
@@ -147,5 +147,12 @@
     }
   },
   "active": "8385b39e1eb1dd35",
-  "lastOpenFiles": []
+  "lastOpenFiles": [
+    "Services/passenger-manager.md",
+    "Services/real-time-monitoring.md",
+    "Services/routes-manager.md",
+    "Services/vehicles-manager.md",
+    "Services/notification-service.md",
+    "Services"
+  ]
 }
