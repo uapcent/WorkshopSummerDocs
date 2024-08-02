@@ -23,16 +23,13 @@
             "id": "7315b7aa4154a5ef",
             "type": "leaf",
             "state": {
-              "type": "kanban",
+              "type": "canvas",
               "state": {
-                "file": "Team Kanban.md",
-                "kanbanViewState": {
-                  "kanban-plugin": "board",
-                  "list-collapse": [
-                    false,
-                    false,
-                    false
-                  ]
+                "file": "EsquemaSistemaTransporte.canvas",
+                "viewState": {
+                  "x": 231.05397984674343,
+                  "y": -585.0213042235355,
+                  "zoom": -0.6575951731205473
                 }
               }
             }
@@ -104,7 +101,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Team Kanban.md",
+                "file": "EsquemaSistemaTransporte.canvas",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -121,7 +118,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Team Kanban.md",
+                "file": "EsquemaSistemaTransporte.canvas",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -144,7 +141,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Team Kanban.md"
+                "file": "EsquemaSistemaTransporte.canvas"
               }
             }
           }
@@ -168,8 +165,10 @@
   },
   "active": "7315b7aa4154a5ef",
   "lastOpenFiles": [
-    "README.md",
+    "Esquema Base de Datos.canvas",
+    "EsquemaSistemaTransporte.canvas",
     "Team Kanban.md",
+    "README.md",
     "Services/real-time-monitoring.md",
     "OpenApi/notification.yaml.md",
     "Services/notification-service.md",
