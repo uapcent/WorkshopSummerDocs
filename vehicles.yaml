@@ -1,0 +1,225 @@
+openapi: 3.0.3
+info:
+  title: Vehicles 
+  version: 1.0.0
+
+tags:
+  - name: vehicle
+
+
+paths:
+  /vehicles:
+    put:
+      tags:
+        - vehicle
+      summary: Update an existing vehicle
+      description: Update an existing vehicle by Id
+      operationId: updateVehicle
+      requestBody:
+        description: Update an existent vehicle by Id
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/Vehicle'
+          application/xml:
+            schema:
+              $ref: '#/components/schemas/Vehicle'
+          application/x-www-form-urlencoded:
+            schema:
+              $ref: '#/components/schemas/Vehicle'
+        required: true
+      responses:
+        '200':
+          description: Successful operation
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Vehicle'          
+            application/xml:
+              schema:
+                $ref: '#/components/schemas/Vehicle'
+        '400':
+          description: Invalid ID supplied
+        '404':
+          description: Vehicle not found
+        '422':
+          description: Validation exception
+
+    post:
+      tags:
+        - vehicle
+      summary: Add a new Vehicle 
+      description: Add a new Vehicle 
+      operationId: addVehicle
+      requestBody:
+        description: Create a new Vehicle 
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/Vehicle'
+          application/xml:
+            schema:
+              $ref: '#/components/schemas/Vehicle'
+          application/x-www-form-urlencoded:
+            schema:
+              $ref: '#/components/schemas/Vehicle'
+        required: true
+      responses:
+        '200':
+          description: Successful operation
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Vehicle'          
+            application/xml:
+              schema:
+                $ref: '#/components/schemas/Vehicle'
+        '400':
+          description: Invalid input
+        '422':
+          description: Validation exception
+
+  
+  /vehicles/{Id}:
+    get:
+      tags:
+        - vehicle
+      summary: Find vehicle by ID
+      description: Returns a single vehicle
+      operationId: getVehicleById
+      parameters:
+        - name: Id
+          in: path
+          description: ID of vehicle to return
+          required: true
+          schema:
+            type: integer
+            format: int64
+      responses:
+        '200':
+          description: successful operation
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Vehicle'          
+            application/xml:
+              schema:
+                $ref: '#/components/schemas/Vehicle'
+        '400':
+          description: Invalid ID supplied
+        '404':
+          description: Vehicle not found
+
+    
+    delete:
+      tags:
+        - vehicle
+      summary: Deletes a vehicle
+      description: delete a vehicle
+      operationId: deleteVehicle
+      parameters:
+        - name: Id
+          in: path
+          description: Vehicle id to delete
+          required: true
+          schema:
+            type: integer
+            format: int64
+      responses:
+        '400':
+          description: Invalid vehicle value
+
+  
+components:
+  schemas:
+    
+    Vehicle:
+      required:
+        - vehicleId
+        - licensePlate
+        - capacity
+        - currentStatus
+        - type
+      type: object
+      properties:
+        vehicleId:
+          type: string
+          example: V-456
+        licensePlate:
+          type: string
+          example: ABC-1234
+        capacity:
+          type: integer
+          format: int64
+          example: 40
+        currentStatus:
+          type: string 
+          enum: [in_service, maintenance, in_error ] #discutir in_error
+        type:
+          type: string
+          example: bus
+        routeId:
+          type: string
+          example: 123
+        lastMaintenance:
+          type: string
+          example: 2024-06-15 #hacer fecha
+        currentLocation:
+            $ref: '#/components/schemas/CurrentLocation'
+        driver:
+            $ref: '#/components/schemas/Driver'
+        maintenanceDetails:
+            $ref: '#/components/schemas/MaintenanceDetails'
+      xml:
+        name: Vehicle
+        
+    Driver:
+      required:
+        - driverId
+        - name
+        - contact
+      type: object
+      properties:
+        driverId:
+          type: string
+          example: D-789
+        name:
+          type: string
+          example: John Doe
+        contact:
+          type: string
+          example: +1234567890
+    
+    CurrentLocation:
+      required:
+        - latitude
+        - longitude
+      type: object
+      properties:
+        latitude:
+          type: number
+          example: 40.730610
+        longitude:
+          type: number
+          example: -73.935242
+          
+    MaintenanceDetails:
+      required:
+        - scheduledBy
+        - scheduledDate
+        - details
+      type: object
+      properties:
+        scheduledBy:
+          type: string
+          example: Jane Smith
+        scheduledDate:
+          type: string
+          example: 2024-07-10 #hacer fecha
+        details:
+          type: string
+          example: Routine check and brake replacement
+        
+        
+          
+    
