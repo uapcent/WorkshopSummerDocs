@@ -13,13 +13,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Services/notification-service.md",
+                "file": "Services/real-time-monitoring.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "7315b7aa4154a5ef",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "OpenApi/notification.yaml.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -85,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Services/notification-service.md",
+                "file": "OpenApi/notification.yaml.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Services/notification-service.md",
+                "file": "OpenApi/notification.yaml.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Services/notification-service.md"
+                "file": "OpenApi/notification.yaml.md"
               }
             }
           }
@@ -146,13 +159,21 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "8385b39e1eb1dd35",
+  "active": "7315b7aa4154a5ef",
   "lastOpenFiles": [
-    "Services/passenger-manager.md",
+    "Services/notification-service.md",
+    "OpenApi/notification.yaml.md",
+    "OpenApi/routes.yaml.md",
+    "Ejercicio sistema de transporte.pdf",
     "Services/real-time-monitoring.md",
     "Services/routes-manager.md",
+    "OpenApi/monitoring.yaml.md",
+    "OpenApi/vehicles.yaml",
     "Services/vehicles-manager.md",
-    "Services/notification-service.md",
+    "OpenApi",
+    "OpenApi document.md",
+    "vehicles.yaml",
+    "Services/passenger-manager.md",
     "Services"
   ]
 }
