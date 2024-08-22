@@ -23,13 +23,16 @@
             "id": "7315b7aa4154a5ef",
             "type": "leaf",
             "state": {
-              "type": "canvas",
+              "type": "kanban",
               "state": {
-                "file": "EsquemaSistemaTransporte.canvas",
-                "viewState": {
-                  "x": 231.05397984674343,
-                  "y": -585.0213042235355,
-                  "zoom": -0.6575951731205473
+                "file": "Team Kanban.md",
+                "kanbanViewState": {
+                  "kanban-plugin": "board",
+                  "list-collapse": [
+                    false,
+                    false,
+                    false
+                  ]
                 }
               }
             }
@@ -101,7 +104,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "EsquemaSistemaTransporte.canvas",
+                "file": "Team Kanban.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -118,7 +121,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "EsquemaSistemaTransporte.canvas",
+                "file": "Team Kanban.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -141,7 +144,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "EsquemaSistemaTransporte.canvas"
+                "file": "Team Kanban.md"
               }
             }
           }
@@ -165,15 +168,15 @@
   },
   "active": "7315b7aa4154a5ef",
   "lastOpenFiles": [
-    "Esquema Base de Datos.canvas",
     "EsquemaSistemaTransporte.canvas",
+    "Ejercicio sistema de transporte.pdf",
+    "Esquema Base de Datos.canvas",
     "Team Kanban.md",
     "README.md",
     "Services/real-time-monitoring.md",
     "OpenApi/notification.yaml.md",
     "Services/notification-service.md",
     "OpenApi/routes.yaml.md",
-    "Ejercicio sistema de transporte.pdf",
     "Services/routes-manager.md",
     "OpenApi/monitoring.yaml.md",
     "OpenApi/vehicles.yaml",
