@@ -13,10 +13,10 @@ paths:
       tags:
         - vehicle
       summary: Update an existing vehicle
-      description: Update an existing vehicle by Id
+      description: Update an existing vehicle
       operationId: updateVehicle
       requestBody:
-        description: Update an existent vehicle by Id
+        description: Update an existent vehicle 
         content:
           application/json:
             schema:
@@ -38,8 +38,6 @@ paths:
             application/xml:
               schema:
                 $ref: '#/components/schemas/Vehicle'
-        '400':
-          description: Invalid ID supplied
         '404':
           description: Vehicle not found
         '422':
@@ -93,8 +91,7 @@ paths:
           description: ID of vehicle to return
           required: true
           schema:
-            type: integer
-            format: int64
+            type: string
       responses:
         '200':
           description: successful operation
@@ -123,8 +120,7 @@ paths:
           description: Vehicle id to delete
           required: true
           schema:
-            type: integer
-            format: int64
+            type: string
       responses:
         '400':
           description: Invalid vehicle value
@@ -136,10 +132,6 @@ components:
     Vehicle:
       required:
         - vehicleId
-        - licensePlate
-        - capacity
-        - currentStatus
-        - type
       type: object
       properties:
         vehicleId:
