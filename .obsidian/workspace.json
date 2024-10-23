@@ -16,25 +16,26 @@
                 "file": "Services/real-time-monitoring.md",
                 "mode": "source",
                 "source": false
-              }
+              },
+              "icon": "lucide-file",
+              "title": "real-time-monitoring"
             }
           },
           {
             "id": "7315b7aa4154a5ef",
             "type": "leaf",
             "state": {
-              "type": "kanban",
+              "type": "canvas",
               "state": {
-                "file": "Team Kanban.md",
-                "kanbanViewState": {
-                  "kanban-plugin": "board",
-                  "list-collapse": [
-                    false,
-                    false,
-                    false
-                  ]
+                "file": "Real Time Monitoring.canvas",
+                "viewState": {
+                  "x": 0,
+                  "y": 0,
+                  "zoom": 0
                 }
-              }
+              },
+              "icon": "lucide-layout-dashboard",
+              "title": "Real Time Monitoring"
             }
           }
         ],
@@ -58,7 +59,9 @@
               "type": "file-explorer",
               "state": {
                 "sortOrder": "alphabetical"
-              }
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
             }
           },
           {
@@ -73,7 +76,9 @@
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical"
-              }
+              },
+              "icon": "lucide-search",
+              "title": "Search"
             }
           },
           {
@@ -81,7 +86,9 @@
             "type": "leaf",
             "state": {
               "type": "bookmarks",
-              "state": {}
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
             }
           }
         ]
@@ -104,7 +111,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Team Kanban.md",
+                "file": "Jose Cano's Workshop.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -112,7 +119,9 @@
                 "searchQuery": "",
                 "backlinkCollapsed": false,
                 "unlinkedCollapsed": true
-              }
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for Jose Cano's Workshop"
             }
           },
           {
@@ -121,10 +130,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Team Kanban.md",
+                "file": "Jose Cano's Workshop.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
-              }
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from Jose Cano's Workshop"
             }
           },
           {
@@ -135,7 +146,9 @@
               "state": {
                 "sortOrder": "frequency",
                 "useHierarchy": true
-              }
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
             }
           },
           {
@@ -144,8 +157,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Team Kanban.md"
-              }
+                "file": "Jose Cano's Workshop.md"
+              },
+              "icon": "lucide-list",
+              "title": "Outline of Jose Cano's Workshop"
             }
           }
         ]
@@ -168,20 +183,22 @@
   },
   "active": "7315b7aa4154a5ef",
   "lastOpenFiles": [
-    "EsquemaSistemaTransporte.canvas",
     "Esquema Base de Datos.canvas",
+    "Real Time Monitoring.canvas",
     "Ejercicio sistema de transporte.pdf",
+    "EsquemaSistemaTransporte.canvas",
+    "Services/real-time-monitoring.md",
+    "Jose Cano's Workshop.md",
+    "OpenApi document.md",
+    "Services/routes-manager.md",
+    "Services/passenger-manager.md",
+    "OpenApi/routes.yaml.md",
     "OpenApi/notification.yaml.md",
     "OpenApi/monitoring.yaml.md",
-    "README.md",
     "Team Kanban.md",
+    "README.md",
     "Services/vehicles-manager.md",
-    "Services/routes-manager.md",
-    "Services/real-time-monitoring.md",
-    "OpenApi document.md",
-    "Services/passenger-manager.md",
     "Services/notification-service.md",
-    "OpenApi/routes.yaml.md",
     "OpenApi/passengers.yaml",
     "OpenApi/vehicles.yaml",
     "OpenApi",

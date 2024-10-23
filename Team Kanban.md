@@ -9,20 +9,21 @@ kanban-plugin: board
 - [ ] crear UML diagram con Mermaid
 - [ ] Servicio de rutas
 - [ ] Crear servicio de notificacions
-- [ ] Crear servicio de real-time-monitoring
 - [ ] Investigar WireMock
 - [ ] Incluir Swagger?
 
 
 ## In Progress
 
-- [ ] Complete OpenAPI documents
-- [ ] Spring Modulith?
+- [ ] Spring Modulith con rutas/vehiculos - Pau
+- [ ] Crear servicio de real-time-monitoring - Mar
 - [ ] Create Random Metrics generator
+- [ ] Servicio de pasajeros - Sergi
 
 
 ## Done
 
+- [ ] Complete OpenAPI documents
 
 
 

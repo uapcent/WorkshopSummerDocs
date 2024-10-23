@@ -1,0 +1,6 @@
+{
+	"nodes":[
+		{"id":"1cb22185a57b2c35","x":-200,"y":-180,"width":250,"height":60,"type":"text","text":"Obtiene datos de la cola"}
+	],
+	"edges":[]
+}
