@@ -1,0 +1,19 @@
+{
+	"nodes":[
+		{"id":"1cb22185a57b2c35","type":"text","text":"Obtiene datos de la cola","x":-200,"y":-180,"width":250,"height":60,"color":"1"},
+		{"id":"0120d0f560eeff16","x":-200,"y":-40,"width":250,"height":60,"type":"text","text":"Procesar datos"},
+		{"id":"e4bc8ba61be3c655","x":-325,"y":140,"width":250,"height":60,"type":"text","text":"Actualizar datos de ubicacion"},
+		{"id":"24ab3d1856560cae","x":-40,"y":140,"width":250,"height":60,"type":"text","text":"Gestionar eventos"},
+		{"id":"e8d218d00f9cba6c","x":-40,"y":280,"width":250,"height":60,"type":"text","text":"Lanzar notificaciones"},
+		{"id":"dc11e560d015367c","x":-40,"y":380,"width":250,"height":60,"color":"4","type":"text","text":"Enviar a Cola de Rabbit"},
+		{"id":"86aa34fac2f73a34","x":-325,"y":380,"width":250,"height":60,"type":"text","text":"Base de datos"}
+	],
+	"edges":[
+		{"id":"5a4dde198f0f4b19","fromNode":"1cb22185a57b2c35","fromSide":"bottom","toNode":"0120d0f560eeff16","toSide":"top"},
+		{"id":"2f253eba9e612c1e","fromNode":"0120d0f560eeff16","fromSide":"bottom","toNode":"e4bc8ba61be3c655","toSide":"top"},
+		{"id":"6f6ac16025b3b6a2","fromNode":"0120d0f560eeff16","fromSide":"bottom","toNode":"24ab3d1856560cae","toSide":"top"},
+		{"id":"4fd3bd39ba5b43b5","fromNode":"24ab3d1856560cae","fromSide":"bottom","toNode":"e8d218d00f9cba6c","toSide":"top"},
+		{"id":"f7f15d7990c5d30d","fromNode":"e8d218d00f9cba6c","fromSide":"bottom","toNode":"dc11e560d015367c","toSide":"top"},
+		{"id":"377d9938f56f2444","fromNode":"e4bc8ba61be3c655","fromSide":"bottom","toNode":"86aa34fac2f73a34","toSide":"top"}
+	]
+}

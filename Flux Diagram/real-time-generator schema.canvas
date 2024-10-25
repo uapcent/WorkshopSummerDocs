@@ -1,0 +1,11 @@
+{
+	"nodes":[
+		{"id":"83d99c843ad048e6","x":-125,"y":-60,"width":250,"height":100,"color":"2","type":"text","text":"Pedira datos de autobuses y rutas a [[routes-manager]] y [[vehicles-manager]]"},
+		{"id":"c027ee3fb8a97132","x":-125,"y":100,"width":250,"height":60,"color":"3","type":"text","text":"Crear datos cada x tiempo"},
+		{"id":"19957f80afb4f5b7","x":-125,"y":240,"width":250,"height":60,"color":"4","type":"text","text":"Publicar en rabbit"}
+	],
+	"edges":[
+		{"id":"e155737a070e3cb7","fromNode":"83d99c843ad048e6","fromSide":"bottom","toNode":"c027ee3fb8a97132","toSide":"top"},
+		{"id":"cfa3896d87614582","fromNode":"c027ee3fb8a97132","fromSide":"bottom","toNode":"19957f80afb4f5b7","toSide":"top"}
+	]
+}

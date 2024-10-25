@@ -1,0 +1,15 @@
+{
+	"nodes":[
+		{"id":"4074c4fc39af7bcf","x":-35,"y":-280,"width":250,"height":60,"color":"4","type":"text","text":"Recibe JSON de rabbit"},
+		{"id":"e50195311ea65628","x":-35,"y":-160,"width":250,"height":60,"color":"5","type":"text","text":"Procesa cada evento"},
+		{"id":"3a77076ff5253969","x":-35,"y":-20,"width":250,"height":100,"color":"5","type":"text","text":"Recibe destinatarios registrados por tipo de evento"},
+		{"id":"751fcca0091d30f7","x":-35,"y":160,"width":250,"height":60,"type":"text","text":"Envia correos a los destinatarios"},
+		{"id":"018ba794f078a23a","x":-380,"y":130,"width":250,"height":60,"color":"1","type":"text","text":"Base de datos de usuarios y contactos"}
+	],
+	"edges":[
+		{"id":"25232956dbedf5ab","fromNode":"4074c4fc39af7bcf","fromSide":"bottom","toNode":"e50195311ea65628","toSide":"top"},
+		{"id":"0579cedeaeaa812d","fromNode":"e50195311ea65628","fromSide":"bottom","toNode":"3a77076ff5253969","toSide":"top"},
+		{"id":"346c2b61522e53e3","fromNode":"3a77076ff5253969","fromSide":"bottom","toNode":"751fcca0091d30f7","toSide":"top"},
+		{"id":"876af5ab47f17cdb","fromNode":"018ba794f078a23a","fromSide":"top","toNode":"3a77076ff5253969","toSide":"left"}
+	]
+}

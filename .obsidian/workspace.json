@@ -25,17 +25,14 @@
             "id": "7315b7aa4154a5ef",
             "type": "leaf",
             "state": {
-              "type": "canvas",
+              "type": "markdown",
               "state": {
-                "file": "Real Time Monitoring.canvas",
-                "viewState": {
-                  "x": 0,
-                  "y": 0,
-                  "zoom": 0
-                }
+                "file": "Services/passenger-manager.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-layout-dashboard",
-              "title": "Real Time Monitoring"
+              "icon": "lucide-file",
+              "title": "passenger-manager"
             }
           }
         ],
@@ -70,7 +67,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "file:D",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -91,7 +88,8 @@
               "title": "Bookmarks"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -162,13 +160,23 @@
               "icon": "lucide-list",
               "title": "Outline of Jose Cano's Workshop"
             }
+          },
+          {
+            "id": "d10411a277fb89f4",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {},
+              "icon": "git-pull-request",
+              "title": "Source Control"
+            }
           }
-        ]
+        ],
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -178,27 +186,33 @@
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
-      "obsidian-kanban:Create new board": false
+      "obsidian-kanban:Create new board": false,
+      "obsidian-git:Open Git source control": false
     }
   },
-  "active": "7315b7aa4154a5ef",
+  "active": "8cfa041ffb7b4160",
   "lastOpenFiles": [
-    "Esquema Base de Datos.canvas",
-    "Real Time Monitoring.canvas",
+    "Flux Diagram/passenger-flux-diagram.canvas",
+    "Services/vehicles-manager.md",
     "Ejercicio sistema de transporte.pdf",
+    "Esquema Base de Datos.canvas",
     "EsquemaSistemaTransporte.canvas",
-    "Services/real-time-monitoring.md",
     "Jose Cano's Workshop.md",
     "OpenApi document.md",
+    "Flux Diagram/real-time-generator schema.canvas",
+    "Flux Diagram/Real Time Monitoring.canvas",
+    "Flux Diagram/notification-service-flux-diagram.canvas",
+    "Flux Diagram",
     "Services/routes-manager.md",
+    "Services/real-time-generator.md",
+    "Services/real-time-monitoring.md",
+    "Services/notification-service.md",
     "Services/passenger-manager.md",
     "OpenApi/routes.yaml.md",
     "OpenApi/notification.yaml.md",
     "OpenApi/monitoring.yaml.md",
     "Team Kanban.md",
     "README.md",
-    "Services/vehicles-manager.md",
-    "Services/notification-service.md",
     "OpenApi/passengers.yaml",
     "OpenApi/vehicles.yaml",
     "OpenApi",
